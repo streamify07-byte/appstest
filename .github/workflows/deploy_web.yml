@@ -36,7 +36,7 @@ jobs:
         run: flutter config --enable-web
 
       - name: Build web (GitHub Pages base href)
-        run: flutter build web --release --web-renderer canvaskit --base-href /appstest/
+        run: flutter build web --release --web-renderer html --base-href /appstest/
 
       - name: Add .nojekyll to prevent Jekyll processing
         run: echo > build/web/.nojekyll
