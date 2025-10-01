@@ -1,0 +1,18 @@
+[
+  {
+    "id": "m1",
+    "title": "The Wanderer",
+    "posterUrl": "https://picsum.photos/seed/movie1/300/450",
+    "overview": "An epic journey across unknown lands.",
+    "year": 2024,
+    "genres": ["Adventure", "Drama"]
+  },
+  {
+    "id": "m2",
+    "title": "City Lights",
+    "posterUrl": "https://picsum.photos/seed/movie2/300/450",
+    "overview": "A heartwarming story set in a bustling metropolis.",
+    "year": 2023,
+    "genres": ["Romance"]
+  }
+]

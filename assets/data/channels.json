@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "name": "Nature TV",
+    "logoUrl": "https://picsum.photos/seed/nature/200/200",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "category": "Documentary"
+  },
+  {
+    "id": "2",
+    "name": "News 24",
+    "logoUrl": "https://picsum.photos/seed/news/200/200",
+    "streamUrl": "https://mojjazzlivevc6.akamaized.net/hls/live/2003160/mojjazz/playlist.m3u8",
+    "category": "News"
+  }
+]

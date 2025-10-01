@@ -1,0 +1,23 @@
+[
+  {
+    "id": "s1",
+    "title": "Galactic Quest",
+    "posterUrl": "https://picsum.photos/seed/series1/300/450",
+    "overview": "A crew explores distant galaxies in search of life.",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {"episodeNumber": 1, "title": "Launch", "duration": 42},
+          {"episodeNumber": 2, "title": "First Contact", "duration": 45}
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {"episodeNumber": 1, "title": "New Horizons", "duration": 44}
+        ]
+      }
+    ]
+  }
+]
