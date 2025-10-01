@@ -29,8 +29,11 @@ jobs:
       - name: Enable web
         run: flutter config --enable-web
 
-      - name: Build web
-        run: flutter build web --release --dart-define=FLUTTER_WEB_CANVASKIT_URL=/canvaskit/
+      - name: Build web (GitHub Pages base href)
+        run: flutter build web --release --web-renderer canvaskit --base-href /appstest/
+
+      - name: Add .nojekyll to prevent Jekyll processing
+        run: echo > build/web/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
